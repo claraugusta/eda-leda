@@ -6,9 +6,14 @@ Este repositório contém implementações de algoritmos e estruturas de dados d
 
 ### Algoritmos Implementados
 #### Ordenação
-- [Selection Sort](https://github.com/claraugusta/eda-leda/blob/main/src/SelectionSort.java)
-- [Insertion Sort](https://github.com/claraugusta/eda-leda/blob/main/src/InsertionSort.java)
+- [Selection Sort](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/SelectionSort.java)
+- [InsertionSort](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/InsertionSort.java)
+- [Insertion Sort Recursivo](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/InsertionSortRecursivo.java)
+- [Selection Sort Recursivo](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/SelectionSortRecursivo.java)
+- [Insere Primeiro](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/InserePrimeiro.java)
+- [Insere Último](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/InsereUltimo.java)
+- [Mariana e os Livros](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/MarianaELivros.java)
 
 #### Pesquisa
-- Busca Binária
-- Busca Linear
+- [Busca Binária](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaBinaria.java)
+- [Busca Linear](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaLinear.java)
