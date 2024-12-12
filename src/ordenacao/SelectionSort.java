@@ -1,3 +1,5 @@
+package ordenacao;
+
 public class SelectionSort {
 
     public static int [] selectionSort(int[] in){
