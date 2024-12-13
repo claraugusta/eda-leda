@@ -16,4 +16,8 @@ Este repositório contém implementações de algoritmos e estruturas de dados d
 
 #### Pesquisa
 - [Busca Binária](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaBinaria.java)
+- [Busca Binária Recursiva](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaBinariaRecursiva.java)
 - [Busca Linear](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaLinear.java)
+
+#### Outros Algoritmos
+- [Encontra Quebra Recursivo](https://github.com/claraugusta/eda-leda/blob/main/src/outrosAlgoritmos/EncontraQuebraRecursivo.java)
