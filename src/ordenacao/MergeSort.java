@@ -4,20 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class MergeSort {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String[] s = sc.nextLine().split(" ");
-        int[] arr = new int[s.length];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.parseInt(s[i]);
-        }
 
-        sort(arr, 0, arr.length-1);
-
-        System.out.println(Arrays.toString(arr));
-    }
-
-    public static void sort(int[]v, int left, int right){
+    public void sort(int[]v, int left, int right){
         if(left >= right)
             return;
         int mid = (left + right) / 2;
@@ -27,7 +15,7 @@ public class MergeSort {
     }
 
     // o merge une duas partes cada uma já ordenada.
-    private static void merge(int[]v, int left, int mid, int right){
+    private void merge(int[]v, int left, int mid, int right){
         int i = left;
         int j = mid + 1;
         int k = left;

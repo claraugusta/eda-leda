@@ -5,20 +5,7 @@ import java.util.Scanner;
 
 public class QuickSort {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String[] s = sc.nextLine().split(" ");
-        int[] arr = new int[s.length];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.parseInt(s[i]);
-        }
-
-        sort(arr, 0, arr.length-1);
-
-        System.out.println(Arrays.toString(arr));
-    }
-
-    public static void sort(int[] v, int left, int right){
+    public void sort(int[] v, int left, int right){
         if(left >= right)
             return;
         int index_pivot = partitionLomuto(v, left, right);
@@ -26,7 +13,7 @@ public class QuickSort {
         sort(v, index_pivot+1, right);
     }
 
-    public static int partitionLomuto(int[]v, int ini, int fim){
+    public int partitionLomuto(int[]v, int ini, int fim){
         int range = fim - ini + 1;
         int index = (int)(Math.random() * range) + ini;
         swap(v, index, ini);
@@ -42,8 +29,8 @@ public class QuickSort {
         swap(v, ini, i);
         return i;
     }
-     
-    public static int partitionHoare(int[]v, int ini, int fim){
+
+    public int partitionHoare(int[]v, int ini, int fim){
         int index_pivot = pickPivotMedianadeTres(v, ini, fim);
         swap(v, ini, index_pivot);
         int pivot = v[ini];
@@ -62,13 +49,13 @@ public class QuickSort {
         return j;
     }
 
-    private static void swap(int[] v, int i, int j){
+    private void swap(int[] v, int i, int j){
         int aux = v[i];
         v[i] = v[j];
         v[j] = aux;
     }
 
-    private static int pickPivotMedianadeTres(int v[], int ini, int fim){
+    private int pickPivotMedianadeTres(int v[], int ini, int fim){
         int[] mediana = new int[]{v[ini], v[(ini+fim)/2], v[fim]};
         Arrays.sort(mediana);
         if(mediana[1] == v[ini])   return ini;
