@@ -15,12 +15,18 @@ Este repositório contém implementações de algoritmos e estruturas de dados d
 - [Counting Sort](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/CountingSort.java)
 - [Insere Primeiro](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/InserePrimeiro.java)
 - [Insere Último](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/InsereUltimo.java)
-- [Mariana e os Livros](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/MarianaELivros.java)
 
 #### Pesquisa
 - [Busca Binária](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaBinaria.java)
 - [Busca Binária Recursiva](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaBinariaRecursiva.java)
 - [Busca Linear](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaLinear.java)
 
-#### Outros Algoritmos
+#### Estruturas de Dados
+
+#### TST-EDA
+- [Mariana e os Livros](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/MarianaELivros.java)
 - [Encontra Quebra Recursivo](https://github.com/claraugusta/eda-leda/blob/main/src/outrosAlgoritmos/EncontraQuebraRecursivo.java)
+- [Ordenação de Placas](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/OrdenacaoDePlacas.java)
+- [Radix Sort de Dois Dígitos](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/RadixDoisDigitos.java)
+- [Radix Sort de Três Dígitos](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/RadixSortTresDigitos.java)
+- [Inverte Pilha Index](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/InvertePilhaIndex.java)
