@@ -22,6 +22,10 @@ Este repositório contém implementações de algoritmos e estruturas de dados d
 - [Busca Linear](https://github.com/claraugusta/eda-leda/blob/main/src/pesquisa/BuscaLinear.java)
 
 #### Estruturas de Dados
+- [LinkedList](https://github.com/claraugusta/eda-leda/blob/main/src/estruturasDeDados/LinkedList.java)
+- [ArrayList](https://github.com/claraugusta/eda-leda/blob/main/src/estruturasDeDados/ArrayList.java)
+- [Queue/fila](https://github.com/claraugusta/eda-leda/blob/main/src/estruturasDeDados/Queue.java)
+- [Stack/pilha](https://github.com/claraugusta/eda-leda/blob/main/src/estruturasDeDados/Stack.java)
 
 #### TST-EDA
 - [Mariana e os Livros](https://github.com/claraugusta/eda-leda/blob/main/src/ordenacao/MarianaELivros.java)
@@ -30,3 +34,4 @@ Este repositório contém implementações de algoritmos e estruturas de dados d
 - [Radix Sort de Dois Dígitos](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/RadixDoisDigitos.java)
 - [Radix Sort de Três Dígitos](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/RadixSortTresDigitos.java)
 - [Inverte Pilha Index](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/InvertePilhaIndex.java)
+- [Remove Index LinkedList](https://github.com/claraugusta/eda-leda/blob/main/src/tstEda/RemoveIndexLinkedList.java)
